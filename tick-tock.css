@@ -48,56 +48,56 @@ aside {
 }
 
 #main {
-	background-color: #eee;
-	border-radius: 10px;
-	left: 50%;
-	margin-left: -35px;
-	padding: 10px;
-	position: absolute;
-	text-align: center;
-	top: -10px;
-	width: 50px;
+    background-color: #eee;
+    border-radius: 10px;
+    left: 50%;
+    margin-left: -35px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    width: 50px;
 }
 
 #main span {
-	display: block;
-	height: 50px;
-	line-height: 50px;
-	margin-bottom: 20px;
-	width: 50px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    width: 50px;
 }
 
 #main span:first-child { margin-bottom: 70px }
 #main span:last-child { margin-bottom: 10px }
 
 @keyframes clock {
-	50% { transform: rotate(-30deg) }
-	100% { transform: rotate(-60deg) }
+    50% { transform: rotate(-30deg) }
+    100% { transform: rotate(-60deg) }
 }
 
 #ring {
-	animation-name: clock;
-	animation-duration: 2s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
-	height: 400px;
-	left: 280px;
-	position: absolute;
-	top: 40px;
-	width: 400px;
+    animation-name: clock;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    height: 400px;
+    left: 280px;
+    position: absolute;
+    top: 40px;
+    width: 400px;
     padding: 0;
 }
 
 #ring li {
-	height: 200px;
-	left: 200px;
-	list-style: none;
-	margin-left: -25px;
-	position: absolute;
-	text-align: center;
-	top: 0;
-	transform-origin: center bottom;
-	width: 50px;
+    height: 200px;
+    left: 200px;
+    list-style: none;
+    margin-left: -25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transform-origin: center bottom;
+    width: 50px;
 }
 
 #ring li:nth-child(2) { transform: rotate(30deg) }
