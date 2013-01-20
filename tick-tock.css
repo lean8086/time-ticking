@@ -31,6 +31,7 @@ aside {
     height: 400px;
     margin: 0.45em 0;
     position: relative;
+    overflow: hidden;
     width: 960px;
     box-shadow: 0 0 15px 0 #555 inset;
     color: #555;
@@ -74,6 +75,11 @@ aside {
 	100% { transform: rotate(-60deg) }
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 #ring {
 	animation-name: clock;
 	animation-duration: 2s;
@@ -81,7 +87,6 @@ aside {
 	animation-iteration-count: infinite;
 	height: 400px;
 	left: 250px;
-	padding: 0;
 	position: absolute;
 	top: 40px;
 	width: 400px;
