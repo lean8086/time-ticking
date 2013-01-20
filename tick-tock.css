@@ -75,18 +75,13 @@ aside {
 	100% { transform: rotate(-60deg) }
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
 #ring {
 	animation-name: clock;
 	animation-duration: 2s;
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
 	height: 400px;
-	left: 250px;
+	left: 280px;
 	position: absolute;
 	top: 40px;
 	width: 400px;
@@ -94,7 +89,7 @@ ul {
 
 #ring li {
 	height: 200px;
-	left: 200px;
+	left: 230px;
 	list-style: none;
 	margin-left: -25px;
 	position: absolute;
