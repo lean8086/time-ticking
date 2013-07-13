@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8"/>
         <title>Tick Tock</title>
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600"/>
-        <script src="https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" data-noprefix/>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
         <link rel="stylesheet" href="tick-tock.css"/>
     </head>
     <body>
-        <h1>Tick Tock</h1>
-        <p>Playing with the <strong>transform-origin</strong> CSS property.</p>
+        <header>
+            <h1>Tick Tock</h1>
+            <p>Playing with the <strong>transform-origin</strong> CSS property.</p>
+        </header>
 
-        <div class="display">
+        <section>
             <p id="main">
                 <span>t</span>
                 <span>c</span>
@@ -32,15 +34,14 @@
                 <li>i</li>
                 <li>o</li>
             </ul>
-        </div>
+        </section>
 
-        <aside>
-            <p>By modifying the transform-origin of the rotate() function, you can modify the centre of rotation.</p>
-            <p>Experiment by <a href="http://leanlinares.me">Leandro Linares</a></p>
-        </aside>
+        <aside>By modifying the transform-origin of the rotate() function, you can modify the centre of rotation.</aside>
 
-        <a href="https://github.com/llinares/tick-tock" target="_blank">
-            <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" class="gh-ribbon" />
+        <footer>Experiment by <a href="http://leanlinares.me">Leandro Linares</a></footer>
+
+        <a href="https://github.com/llinares/tick-tock" target="_blank" rel="external">
+            <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" id="gh-ribbon"/>
         </a>
     </body>
 </html>
