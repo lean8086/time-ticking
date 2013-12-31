@@ -2,23 +2,28 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Tick Tock</title>
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" data-noprefix/>
+        <title>Time's ticking</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta http-equiv="cleartype" content="on"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <link rel="stylesheet" href="http://leanlinares.me/src/pages.css" data-noprefix/>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-        <link rel="stylesheet" href="tick-tock.css"/>
+        <link rel="stylesheet" href="time-ticking.css"/>
     </head>
     <body>
         <header>
-            <h1>Tick Tock</h1>
-            <p>Playing with the <strong>transform-origin</strong> CSS property.</p>
+            <h1>Time's ticking</h1>
+            <h2>Modifying the <strong>transform-origin</strong> property.</h2>
         </header>
 
         <section>
-            <p id="main">
-                <span>t</span>
-                <span>c</span>
-                <span>k</span>
-            </p>
+            <ul id="display">
+                <li>t</li>
+                <li>c</li>
+                <li>k</li>
+            </ul>
 
             <ul id="ring">
                 <li>i</li>
@@ -36,12 +41,17 @@
             </ul>
         </section>
 
-        <aside>By modifying the transform-origin of the rotate() function, you can modify the centre of rotation.</aside>
+        <aside>Based on <a href="http://realistrichie.tumblr.com/image/29222291093" target="_blank" rel="external">Time's ticking</a> by <a href="http://richiepickwell.com/" target="_blank" rel="external">Richie Pickwell</a>.</aside>
 
-        <footer>Experiment by <a href="http://leanlinares.me">Leandro Linares</a></footer>
+        <footer>
+            <a href="http://leanlinares.me">
+                <img src="http://www.gravatar.com/avatar/cbb09e7b4e90ff4572d7a5c95566563b?s=42" width="42" height="42" id="avatar"/>
+                by Leandro Linares
+            </a>
 
-        <a href="https://github.com/llinares/tick-tock" target="_blank" rel="external">
-            <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" id="gh-ribbon"/>
-        </a>
+            <a href="https://github.com/llinares/time-ticking" target="_blank" rel="external">
+                <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" id="gh-ribbon"/>
+            </a>
+        </footer>
     </body>
 </html>

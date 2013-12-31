@@ -1,7 +1,6 @@
-# Tick Tock
-Playing with the **transform-origin** CSS property.
+# Time's ticking
+Modifying the **transform-origin** property.
 
-[Try demo!](http://llinares.github.com/tick-tock/)
+[View demo!](http://llinares.github.io/time-ticking/)
 
-## Contact
-Experiment by [Leandro Linares](http://leanlinares.me)
+By [Leandro Linares](http://leanlinares.me)

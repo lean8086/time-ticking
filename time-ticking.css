@@ -1,0 +1,62 @@
+section {
+    background-color: #f1c40f;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    list-style: none;
+    left: 50%;
+}
+
+li {
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+}
+
+#display {
+    margin-left: -.53em;
+    margin-top: 32px;
+}
+
+#display :first-child {
+    margin-bottom: 1em;
+}
+
+@keyframes clock {
+    25%, 50%  { transform: rotate(-30deg) }
+    75%, 100% { transform: rotate(-60deg) }
+}
+
+#ring {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    top: 120px;
+    animation: clock 2s ease-out infinite;
+}
+
+#ring li {
+    height: 200px;
+    left: 200px;
+    margin-left: -.5em;
+    position: absolute;
+    transform-origin: center bottom;
+}
+
+#ring li:nth-child(2) { transform: rotate(30deg) }
+#ring li:nth-child(3) { transform: rotate(60deg) }
+#ring li:nth-child(4) { transform: rotate(90deg) }
+#ring li:nth-child(5) { transform: rotate(120deg) }
+#ring li:nth-child(6) { transform: rotate(150deg) }
+#ring li:nth-child(7) { transform: rotate(180deg) }
+#ring li:nth-child(8) { transform: rotate(210deg) }
+#ring li:nth-child(9) { transform: rotate(240deg) }
+#ring li:nth-child(10) { transform: rotate(270deg) }
+#ring li:nth-child(11) { transform: rotate(300deg) }
+#ring li:nth-child(12) { transform: rotate(330deg) }
