@@ -1,6 +1,6 @@
 # Time's ticking
 Modifying the **transform-origin** property.
 
-[View demo!](http://llinares.github.io/time-ticking/)
+[View demo!](https://www.lean8086.com/labs/time-is-ticking/)
 
-By [Leandro Linares](http://leanlinares.me)
+By [Leandro Linares](https://www.lean8086.com/)
